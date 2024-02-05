@@ -1,0 +1,11 @@
+input = "Red Apple"
+print(input)
+print(type(input))
+print(input.split())
+print(type(input.split()))
+xyz = input.split('e')
+print(xyz)
+print(len(xyz))
+print(xyz[0])
+print(xyz[1])
+print(xyz[2])
