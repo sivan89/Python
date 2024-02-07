@@ -1,0 +1,8 @@
+a = int(input("Enter the first number :"))
+b = int(input("Enter the second number :"))
+print("added both number :", a + b)
+print("sub both number :", a - b)
+print("Mul of both number :", a * b)
+print("div of bothnumber if folut is present it will show: %0.7f " %(a / b))
+print("Div two number :", a // b)
+print("divided remider:", a % b)
