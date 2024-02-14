@@ -1,0 +1,6 @@
+var1 = open("thefile.txt","r")
+print("Name of the file ", var1.name)
+print("type of the file ", var1.mode)
+print("the file cloaded or not ? ", var1.closed)
+var1.close()
+print("the file cloaded or not  ? ", var1.closed)
