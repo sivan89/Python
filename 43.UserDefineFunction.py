@@ -14,7 +14,7 @@ d=6
 addtwo(c,d) """
 
 
-def num2and3(type,num):
+""" def num2and3(type,num):
     if (type=="S"):
         result = num * num
     elif(type=="C"):
@@ -22,4 +22,17 @@ def num2and3(type,num):
     return result
 
 print(num2and3("C",2))
-print(num2and3("S",3))
+print(num2and3("S",3)) """
+
+
+
+def square(num):
+    return num * num
+
+""" for i in [1,2,3]:
+    print(square(i)) """
+    
+
+n = int(input())
+for j in range(1,n+1):
+    print(square(j))
