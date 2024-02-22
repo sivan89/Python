@@ -1,7 +1,7 @@
 import requests
 
 
-""" #api_url = "https://reqres.in/api/users?page=2"
+"""  #api_url = "https://reqres.in/api/users?page=2"
 api_url = "https://reqres.in/api/users/2"
 #api_url = "https://reqres.in/api/users/23"
 #api_url = "https://reqres.in/api/unknown"
@@ -11,7 +11,7 @@ print(requests.get(api_url)) #,auth = HTTPBasicAuth('user', 'pass')
 data = requests.get(api_url)
 
 print(data.status_code) #filter only the code
-print(data.json()) """
+print(data.json())  """
 
 """ print("****************************************")
 

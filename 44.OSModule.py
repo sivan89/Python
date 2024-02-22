@@ -48,6 +48,7 @@ import os.path as p #making alias during import command
 
 a = "38.regex.py"
 print(p.abspath(a)) # absolute path for the file முழுமையான பாதை
+os.chdir("Python")
 print(p.exists(a)) # present or not( true - present)
 print(p.getsize(a))  # get the size
 

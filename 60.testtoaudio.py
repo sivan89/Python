@@ -151,16 +151,16 @@ class userAudio:
 # hello = userAudio("Hello, world!")
 # hello.play_only()
 
-with open("special_file.txt", "r") as f:
+""" with open("special_file.txt", "r") as f:
     retrieved_text = f.read()
-retrieved_text = retrieved_text.replace("\n", "")
+retrieved_text = retrieved_text.replace("\n", "") """
 
 # hello = userAudio("Hello, user how are you?", slow=False)
 hello = userAudio
-hello.play_only()
+hello.play_only(hello)
 
 
-class fun_secret_generator_string:
+""" class fun_secret_generator_string:
     # Instructions on how to use it?
     def __init__(self, string):
         self.string = string
@@ -175,7 +175,7 @@ class fun_secret_generator_string:
     # Reading from the file
     with open("special_file.txt", "r") as f:
         retrieved_text = f.read()
-    retrieved_text = retrieved_text.replace("\n", "")
+    retrieved_text = retrieved_text.replace("\n", "") """
 
 
 # Also have an option to play from a file, a text file.
