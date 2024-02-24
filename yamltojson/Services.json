@@ -1,0 +1,23 @@
+{
+  "services": {
+    "aws": {
+      "count": 500,
+      "instances": 500,
+      "name": "EC2",
+      "type": "pay per hour"
+    },
+    "azure": {
+      "count": 500,
+      "instances": 500,
+      "name": "VM",
+      "type": "pay per hour"
+    },
+    "debug": "on",
+    "gcp": {
+      "count": 500,
+      "instances": 500,
+      "name": "Compute Engine",
+      "type": "pay per hour"
+    }
+  }
+}
