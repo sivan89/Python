@@ -7,7 +7,7 @@ def imag(image_folder_path):
     else:
         print("provide the valied path")
         
-    image = [img for img in os.listdir(image_folder_path) if img.endswith((".JPG",".jpeg",".png"))]
+    image = [img for img in os.listdir(image_folder_path) if img.endswith((".JPG",".jpg"))]
     
     #for img in os.listdir(image_folder_path):
         #image = img.endswith((".JPG",".jpeg",".png"))
